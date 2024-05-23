@@ -5,16 +5,38 @@ In this repo we will develop our guidelines towards writing code & using reposit
 Driving principles:
 - keep things low touch
 - focus on productivity and being practical over being formal
-- differentiate between different use cases. Exploratory work does not perfectly formatted and unit tested code, production work maybe does, maybe does not.
+- differentiate between different use cases. Multiple use cases might apply to your work
 
-We are building these publicly so others can contribute or adopt what we have done if interested.
+We are building these publicly so other organizations can contribute or adopt what we have done if interested.
+Our main use cases at the time of writing are convenience tools to make the org more efficient, data exploratory work with occasional focus on social media.
 
 # Updates and to do
 - 23 May 2024: created repo, keeping everything in readme for now. Might move to something nicer later.
 
-# Use case: non-production Python projects 
+# Standards
 
-We are looking to be inspired by [PEP 8](https://peps.python.org/pep-0008/#introduction), but keep it low touch.
+## Where to keep code
+
+Generally speaking, we consider good pracrtice to have code live in repository or a code snippet. Whether it's a one-off work or a big project.
+
+
+## When creating any a repo
+
+Make sure to:
+
+- think if it needs to be private or ok to be public
+- who else might want to use the repo and what for (the answer could well be nobody ever)
+- a readme file listing:
+  - what is contained in the repo and what it can be used for
+  - intended audience
+  - how to use the repo, ideally with detailed steps if needed
+
+- if writing code, make sure not to include any credentials
+- flat data files should not live in a repo
+
+## When creating non-production Python projects 
+
+We take inspiration by [PEP 8](https://peps.python.org/pep-0008/#introduction), but keep it low touch.
 
 Proposed standards and principles:
 
