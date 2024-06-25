@@ -44,13 +44,13 @@ Proposed standards and principles:
 
 - **indentation**: don't go wild, no need to enforce hard standards
 
-- **imports** matter. One import per line, at the beginning of the file ([entirely as per PEP-8](https://peps.python.org/pep-0008/#imports))
+- **imports and definitions** matter. One import per line. Clear setting of variables. Both at the beginning of the file ([entirely as per PEP-8](https://peps.python.org/pep-0008/#imports))
 
-- write **doc strings** for all the functions, using triple quote. No need to spell out all what all the parameters do in details. But be clear in what the function does, and how the params come into play
+- try and write **doc strings** for all the functions, using triple quote. No need to spell out all what all the parameters do in details. But be clear in what the function does, and how the params come into play
 
 - **naming conventions**: 
-  - all lower case. 
-  - use informative but concise names for functions and variables. 
+  - all lower case
+  - use informative but concise names for functions and variables 
   - Use '_' to create clear a *variable_name*
   - be mindful of potential reserved word and tweak variable names. E.g. use 'my_item' instead of 'item'
 
